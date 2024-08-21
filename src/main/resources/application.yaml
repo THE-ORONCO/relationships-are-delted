@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: relationships-are-delted
+
+  neo4j:
+    uri: bolt://localhost:7687
+    authentication:
+      username: neo4j
+      password: verysecret
+  docker:
+    compose:
+      lifecycle-management: start_only
+#logging:
+#  level:
+#    com.atr: debug
+#    org.springframework.data.neo4j.cypher: trace
+#    org.neo4j: debug

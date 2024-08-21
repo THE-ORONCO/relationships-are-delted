@@ -1,0 +1,8 @@
+services:
+  neo4j:
+    image: 'neo4j:latest'
+    environment:
+      - 'NEO4J_AUTH=neo4j/verysecret'
+    ports:
+      - '7687'
+      - '7474'
